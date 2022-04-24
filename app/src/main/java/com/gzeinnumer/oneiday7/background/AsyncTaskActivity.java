@@ -8,8 +8,10 @@ import androidx.fragment.app.FragmentTransaction;
 import android.os.Bundle;
 
 import com.gzeinnumer.oneiday7.R;
+import com.gzeinnumer.oneiday7.databinding.FragmentAsyncTaskBinding;
 
 public class AsyncTaskActivity extends AppCompatActivity {
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

@@ -27,7 +27,7 @@ public class MultiThreadFragment extends Fragment {
 
     private FragmentMultiThreadBinding binding;
 
-    private Executor poolWorker = Executors.newFixedThreadPool(2);
+    private Executor poolWorker = Executors.newFixedThreadPool(3);
     private Executor mainThread = new Executor() {
         private Handler handler = new Handler(Looper.getMainLooper());
         @Override
